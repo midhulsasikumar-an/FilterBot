@@ -71,3 +71,14 @@ Midhul Sasikumar
 📜 License
 
 This project is created for educational and learning purposes.
+
+Run frontend + backend together
+
+- `npm start` starts:
+  - React frontend at `http://localhost:3000`
+  - Flask backend at `http://127.0.0.1:5000`
+
+Optional separate commands
+
+- `npm run start:frontend`
+- `npm run start:backend`

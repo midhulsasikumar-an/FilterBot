@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 from flask_cors import CORS
 import re
+import os
 from pathlib import Path
 
 app = Flask(__name__)
@@ -58,4 +59,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    debug_mode = os.getenv("FLASK_DEBUG", "1") == "1"
+    app.run(debug=debug_mode, use_reloader=False)
