@@ -1,34 +1,35 @@
-# FilterBot 🤖
+FilterBot 🤖
 
-FilterBot is a machine learning-powered spam message detection web application that classifies messages as **Spam** or **Not Spam** in real-time.
+FilterBot is a machine learning-powered spam message detection web application that classifies messages as Spam or Not Spam in real-time.
 
----
+🚀 Features
 
-## 🚀 Features
+📩 Real-time spam detection
 
-- 📩 Real-time spam detection
-- 🤖 Machine learning based classification
-- ⚡ Fast and responsive React interface
-- 🎯 Simple and clean UI
-- 📱 Fully responsive design
+🤖 Machine learning based classification
 
----
+⚡ Fast and responsive React interface
 
-## 🛠️ Tech Stack
+🎯 Simple and clean UI
 
-- React.js
-- JavaScript
-- Machine Learning (Naive Bayes / Logistic Regression)
-- HTML5
-- CSS3
+📱 Fully responsive design
 
----
+🛠️ Tech Stack
 
-## 📦 Installation & Setup
+React.js
+
+JavaScript
+
+Machine Learning (Naive Bayes / Logistic Regression)
+
+HTML5
+
+CSS3
+
+📦 Installation & Setup
 
 Clone the repository:
 
-```bash
 git clone https://github.com/midhulsasikumar-an/FilterBot.git
 
 Navigate into the project directory:
@@ -43,8 +44,7 @@ Run the development server:
 
 npm start
 
-Open http://localhost:3000
- in your browser.
+Open http://localhost:3000 in your browser.
 
 🎯 How It Works
 
@@ -67,3 +67,7 @@ Deployment with backend integration
 👨‍💻 Author
 
 Midhul Sasikumar
+
+📜 License
+
+This project is created for educational and learning purposes.
