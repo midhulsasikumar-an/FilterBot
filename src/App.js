@@ -21,7 +21,7 @@ function App() {
     setPrediction('');
 
     try {
-      const response = await fetch('https://your-render-url.onrender.com/predict', {
+      const response = await fetch('https://filterbot-backend.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
